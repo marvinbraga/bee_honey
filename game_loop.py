@@ -6,8 +6,8 @@ from menu import Menu
 
 class GameLoop(AbstractGameLoop):
 
-    def __init__(self, x, y, title):
-        super().__init__(x, y, title)
+    def __init__(self, width, height, title):
+        super().__init__(width, height, title)
         self.menu = Menu()
         self.game = Game()
         self.game_over = GameOver()
